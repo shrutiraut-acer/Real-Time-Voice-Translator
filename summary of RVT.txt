@@ -1,0 +1,39 @@
+Project Summary: Real-Time Voice Translator
+Overview:
+
+The Real-Time Voice Translator is a machine learning project designed to translate spoken language from one language to another in real time. It preserves the tone and emotion of the speaker and outputs the translated text as speech in MP3 format. The application features a user-friendly Tkinter GUI interface for easy interaction.
+
+Key Features:
+
+Real-time speech recognition using Google's speech recognition API.
+Translation between multiple languages via Google Translate.
+Text-to-speech output using gTTS (Google Text-to-Speech).
+Support for a wide range of languages, including English, Hindi, Bengali, Spanish, Chinese (Simplified), Russian, Japanese, Korean, German, French, Tamil, Telugu, Kannada, Gujarati, and Punjabi.
+Multi-threaded processing for efficient CPU usage.
+Options to start, stop, and kill the translation process.
+An "About" page with project information (link removed as per user request).
+Programming Languages and Technologies Used:
+
+Primary Language: Python 3.x
+Libraries and Frameworks:
+speech_recognition (for audio input and recognition)
+deep_translator (for language translation)
+gtts (for text-to-speech conversion)
+tkinter and tkinter.ttk (for GUI interface)
+threading (for concurrent execution)
+os and webbrowser (for file and web operations)
+Additional Tools: cx_Freeze (for building standalone executables)
+Requirements:
+
+Python 3.x
+Microphone access for speech input
+Internet connection for speech recognition and translation services
+Dependencies listed in requirements.txt: gtts, SpeechRecognition, deep_translator, google-transliteration, cx-Freeze
+Usage:
+
+Install dependencies with pip install -r requirements.txt.
+Run python main.py to launch the GUI.
+Select input and output languages.
+Click "Start Translation" and speak into the microphone.
+View recognized and translated text in the interface.
+This project is part of an MSc-IT curriculum and demonstrates integration of speech processing, translation APIs, and GUI development in Python.
